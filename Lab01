@@ -1,0 +1,35 @@
+/*Lab1 Corey Miller */
+#include<stdio.h>
+
+int main()
+{
+	
+	int a = 5;
+	short b = 10;
+	char c = 15;
+	char * d = "Hello, my name is <Put Your Nme Here\n";
+	double e = 20.0
+	
+	/* read these as "the int pointer aPtr is assigned the address a*/
+	int * aPtr = &a; 
+	short * bPtr = &b;
+	char * cPtr = &c;
+	char ** dPtr = &d;
+	double * ePtr = &e;
+	void * vPtr = aPtr;
+	
+		 /*name	type	value	address*/
+	printf("name \t\t type \t\t value \t\t addess: \n");
+	printf("%s \t\t int \t\t ___ \t\t ___ \n", "a");
+	printf("%s \t\t short \t\t ___ \t\t ___ \n", "b");
+	printf("%s \t\t char \t\t ___ \t\t ___ \n", "c");
+	printf("%s \t\t char \t\t ___ \t\t ___ \n", "d");
+	printf("%s \t\t int \t\t ___ \t\t ___ \n", "aPtr");
+	printf("%s \t\t short \t\t ___ \t\t ___ \n", "bPtr");
+	printf("%s \t\t char \t\t ___ \t\t ___ \n", "cPtr");
+	printf("%s \t\t	char \t\t ___ \t\t ___ \n", "dPtr");
+	printf("%s \t\t double \t\t ___ \t\t ___ \n", "ePtr");
+	printf("%s \t\t void \t\t ___ \t\t ___ \n", "vPtr");
+	return 0;
+
+}
